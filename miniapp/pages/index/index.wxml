@@ -1,0 +1,30 @@
+<!--index.wxml-->
+ <view class="container">
+  
+    <block wx:if="{{hasUserInfo}}">
+       <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+    <button wx:else open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+</view> 
+
+
+<form bindsubmit="formSubmit" bindreset="formReset">
+        <view class="btn-area">
+        
+        <view class="section__title">Business Requset Industry</view>
+        <picker bindchange="bindPickerChange" name="picker"  value="{{index}}" range="{{array}}">
+         <view class="picker">
+                      Your Choice: {{array[index]}}
+                  </view>
+        </picker>
+         <view class="section__title">Request Details</view>
+        <textarea  name="textarea" auto-height/>
+            <button formType="submit">Submit</button>
+            <button formType="reset">Reset</button>
+        </view>
+    </form>
+     <button bindtap="viewrequest">Viewrequest</button>
+    
+
+
