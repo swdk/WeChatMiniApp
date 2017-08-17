@@ -25,13 +25,13 @@ We will demonstrate connecting miniApp to backend using a simple Business requet
 ### Getting userInfo with option withCredentials: true （See app.js)
 Documentation： https://mp.weixin.qq.com/debug/wxadoc/dev/api/network-request.html <br>
 
-(We only displayed the encryptedData and iv part here)<br>
+### (We only displayed the encryptedData and iv part here)<br>
 ![Screenhot](5.png)<br>
 
-After getting code from wx.login，we will then submit the code to our login.php and it will get session_key and openid<br>
+### After getting code from wx.login，we will then submit the code to our login.php and it will get session_key and openid<br>
 ![Screenhot](6.png)<br>
 
-Decrypting data by calling PHP/demo.php <br>
+### Decrypting data by calling PHP/demo.php <br>
 ![Screenhot](7.png)<br>
 
 
