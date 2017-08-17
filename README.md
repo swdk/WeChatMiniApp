@@ -1,4 +1,3 @@
-ReadMe.txt
 
 # WeChatMiniApp
 
@@ -10,7 +9,7 @@ We also build a simple php-mysql backend using xampp.<br>
 ## Demo
 We will demonstrate connecting miniApp to backend using a simple Business requets platform
 
-##Submitting the form
+## Submitting the form
 ![Screenhot](1.png)<br>
 ![Screenhot](2.png)<br>
 ![Screenhot](8.png)
