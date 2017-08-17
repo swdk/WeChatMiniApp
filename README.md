@@ -54,7 +54,7 @@ https://www.apachefriends.org/download.html<br>
 
 ![Screenhot](10.png)<br>
 
-### 3. Login https://mp.weixin.qq.com/ again with the Mini App admin account, from there u should see the MiniApp tab<br>
+### 3. Login https://mp.weixin.qq.com/ again with the Mini App admin account, from there you should see the MiniApp tab<br>
 
 ### 4. Add developers<br>
 ![Screenhot](11.png)<br>
